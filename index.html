@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                outline: 0;
+            }
+            .nav{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 13vh;
+                background-color: rgb(10, 11, 83);
+                align-items: center;
+            }
+            .left img{
+                width: 170px;
+                height: 80px;
+                margin: 10px;
+            }
+            .right{
+                display: flex;
+                
+            }
+            .right div{
+                padding-right: 20px;
+                
+            }
+            .right div a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+            .icon{
+                position: relative;
+                width: 5px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solid rgb(15, 8, 8);
+            }
+            .ban{
+                width: 100%;
+                height: 87vh;
+                background: linear-gradient(rgba(100,100,100,0.2),rgba(100,100,100,0.2)),url("facebook\ bg.jpg");
+                background-size: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .cont form{
+                display: flex;
+                flex-direction: column;
+                height: 100px;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .cont h1{
+                color: blue;
+                font-size: 40px;
+            }
+            .cont p{
+                color: rgb(255, 255, 255);
+                font-size: 30px;
+
+            }
+            .cont input[type="submit"]{
+                color: rgb(2, 3, 19);
+                background: transparent;
+                padding: 5px 10px;
+                border: 3px solid black;
+                border-radius: 10px;
+                font-size: 20px;
+
+            }
+            .ftr{
+                background-color: blue;
+                width: 100%;
+            }
+            .ftr div{
+                text-align: center;
+                color: azure;
+                font-size: 11px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav class="nav">
+            <div class="left"><img src="https://th.bing.com/th/id/R.7091ca955a520796b7dd868647f4a957?rik=YtvwvhackoGttg&riu=http%3a%2f%2fwww.freelargeimages.com%2fwp-content%2fuploads%2f2015%2f05%2fFacebook_Vector_Logo_Hd_06.jpg&ehk=K9TFDZ9PYMCvZ3w6BTjvsBttbz5LuETAUniInLS9dtk%3d&risl=&pid=ImgRaw&r=0" alt="logo"/></div>
+            <div class="right">
+                <div><a href="#">HOME</a></div>
+                <div><a href="#">New feed</a></div>
+                <div><a href="#">friends</a></div>
+                <div><a href="#">login</a></div>
+                <div class="icon"><a href="#"><i class="fa-solid fa-user"></i></a></div>
+                
+            </div>
+        </div>
+        </nav>
+        <div class="ban">
+            <div class="cont">
+                <form action="https://www.facebook.com/login.php/">
+                <h1>Welcome to facebook</h1>
+                <p>login to get access</p>
+                <input type="submit" value="login now"/></form>
+                
+            </div>
+        </div>
+        <footer class="ftr">
+            <div>@copyrights reserved to facebook.com</div>
+        </footer>
+    </body>
+</html>

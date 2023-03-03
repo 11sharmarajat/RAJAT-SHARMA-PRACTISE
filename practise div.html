@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitter Login</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f8fa;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      h1 {
+        font-size: 28px;
+        font-weight: normal;
+        margin-top: 0;
+      }
+      form {
+        margin-top: 30px;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      input[type="password"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #dadee0;
+        border-radius: 3px;
+        background-color: #f5f8fa;
+        margin-bottom: 20px;
+      }
+      input[type="submit"] {
+        background-color: #1da1f2;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #0e9edc;
+      }
+      .forgot-password {
+        text-align: right;
+        margin-top: 10px;
+      }
+      .or-line {
+        position: relative;
+      }
+      .or-line hr {
+        border: none;
+        border-top: 1px solid #dadee0;
+        height: 0;
+      }
+      .or-line .or-text {
+        position: absolute;
+        top: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fff;
+        padding: 0 10px;
+        font-size: 14px;
+        color: #8899a6;
+        text-transform: uppercase;
+      }
+      .signup-link {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #8899a6;
+      }
+      .signup-link a {
+        color: #1da1f2;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Log in to Twitter</h1>
+      <form>
+        <label for="username">Phone, email, or username</label>
+        <input type="text" id="username">
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <input type="submit" value="Log in">
+        <div class="forgot-password"><a href="#">Forgot password?</a></div>
+      </form>
+      <div class="or-line">
+        <hr>
+        <div class="or-text">or</div>
+      </div>
+      <div class="signup-link">New to Twitter? <a href="#">Sign up now</a></div>
+    </div>
+  </body>
+</html>
